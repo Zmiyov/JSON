@@ -15,6 +15,7 @@
 		A5DFD366286073A300A60D7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DFD364286073A300A60D7E /* LaunchScreen.storyboard */; };
 		A5DFD36E28607FB400A60D7E /* SearchREsponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DFD36D28607FB300A60D7E /* SearchREsponse.swift */; };
 		A5DFD3702860884300A60D7E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DFD36F2860884300A60D7E /* NetworkService.swift */; };
+		A5DFD374286098A400A60D7E /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DFD373286098A400A60D7E /* NetworkDataFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A5DFD367286073A300A60D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5DFD36D28607FB300A60D7E /* SearchREsponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchREsponse.swift; sourceTree = "<group>"; };
 		A5DFD36F2860884300A60D7E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		A5DFD373286098A400A60D7E /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				A5DFD36F2860884300A60D7E /* NetworkService.swift */,
+				A5DFD373286098A400A60D7E /* NetworkDataFetcher.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5DFD374286098A400A60D7E /* NetworkDataFetcher.swift in Sources */,
 				A5DFD3702860884300A60D7E /* NetworkService.swift in Sources */,
 				A5DFD36E28607FB400A60D7E /* SearchREsponse.swift in Sources */,
 				A5DFD35E2860739E00A60D7E /* ViewController.swift in Sources */,
